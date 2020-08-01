@@ -1,0 +1,348 @@
+body {
+    background-color: #fff1ed;
+    color: indigo;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 200;
+}
+
+.picha {
+    border: 2px solid burlywood;
+    border-radius: 20px;
+}
+
+#content {
+    max-width: 97vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#watoto {
+    -webkit-transform: perspective(500px) translateZ(-250000px);
+    -moz-transform: perspective(500px) translateZ(-250000px);
+    -ms-transform: perspective(500px) translateZ(-250000px);
+    -o-transform: perspective(500px) translateZ(-250000px);
+    transform: perspective(500px) translateZ(-250000px);
+    -webkit-animation: zoomingIn 2500ms ease-in-out 5000ms alternate forwards;
+    -moz-animation: zoomingIn 2500ms ease-in-out 5000ms alternate forwards;
+    -ms-animation: zoomingIn 2500ms ease-in-out 5000ms alternate forwards;
+    -o-animation: zoomingIn 2500ms ease-in-out 5000ms alternate forwards;
+    animation: zoomingIn 2500ms ease-in-out 5000ms alternate forwards;
+}
+
+@-webkit-keyframes zoomingIn {
+    from {transform: perspective(500px) translateZ(-250000);}
+    to {transform: perspective(500px) translateZ(0);}
+}
+@-moz-keyframes zoomingIn {
+    from {transform: perspective(500px) translateZ(-250000);}
+    to {transform: perspective(500px) translateZ(0);}
+}
+@-ms-keyframes zoomingIn {
+    from {transform: perspective(500px) translateZ(-250000);}
+    to {transform: perspective(500px) translateZ(0);}
+}
+@-o-keyframes zoomingIn {
+    from {transform: perspective(500px) translateZ(-250000);}
+    to {transform: perspective(500px) translateZ(0);}
+}
+@keyframes zoomingIn {
+    from {transform: perspective(500px) translateZ(-250000);}
+    to {transform: perspective(500px) translateZ(0);}
+}
+
+
+header {
+    margin: auto;
+    padding: 0;
+}
+
+
+header h1 {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 10000ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 10000ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 10000ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 10000ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 10000ms 500ms infinite alternate ease-in-out forwards;
+}
+
+header p {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+}
+
+header img:nth-child(1) {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+}
+
+header img:nth-child(2) {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+}
+
+header img:nth-child(3) {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 20000ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 20000ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 20200ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 20000ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 20000ms 500ms infinite alternate ease-in-out forwards;
+}
+
+header img:nth-child(4) {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 20200ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 20200ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 20200ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 20200ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 20200ms 500ms infinite alternate ease-in-out forwards;
+}
+
+header img:nth-child(5) {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 20400ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 20400ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 20400ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 20400ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 20400ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#edel {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 20600ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 20600ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 20600ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 20600ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 20600ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#mary {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 20800ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 20800ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 20800ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 20800ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 20800ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#inno {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 30000ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 30000ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 30000ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 30000ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 30000ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#jane {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 30200ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 30200ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 30200ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 30200ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 30200ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#ben {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 30400ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 30400ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 30400ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 30400ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 30400ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#kizi {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 30600ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 30600ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 30600ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 30600ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 30600ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#eugi {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 30800ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 30800ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 30800ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 30800ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 30800ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#cyp {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 40000ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 40000ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 40000ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 40000ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 40000ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#agi {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 40200ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 40200ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 40200ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 40200ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 40200ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#ambro {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 40400ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 40400ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 40400ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 40400ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 40400ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#magda {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 40600ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 40600ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 40600ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 40600ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 40600ms 500ms infinite alternate ease-in-out forwards;
+}
+
+#waka {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 40800ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 40800ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 40800ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 40800ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 40800ms 500ms infinite alternate ease-in-out forwards;
+}
+
+@-webkit-keyframes scaleEffect {
+    from {transform: scale(0);}
+    to {transform: scale(1.2);}
+}
+
+@-moz-keyframes scaleEffect {
+    from {transform: scale(0);}
+    to {transform: scale(1.2);}
+}
+@-ms-keyframes scaleEffect {
+    from {transform: scale(0);}
+    to {transform: scale(1.2);}
+}
+
+@-o-keyframes scaleEffect {
+    from {transform: scale(0);}
+    to {transform: scale(1.2);}
+}
+
+@keyframes scaleEffect {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
