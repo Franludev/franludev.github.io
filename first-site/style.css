@@ -70,6 +70,82 @@ p {
 }
 
 
+.fa-glass {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 10400ms 500ms infinite alternate ease-in-out forwards;
+}
+
+.fa-birthday-cake {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+}
+
+.fa-heartbeat {
+    -webkit-animation: heartBeat 1000ms infinite;
+    -moz-animation: heartBeat 1000ms infinite;
+    -o-animation: heartBeat 1000ms infinite;
+    animation: heartBeat 1000ms infinite;
+}
+
+@-webkit-keyframes heartBeat {
+    0% {transform: scale(.75);}
+    20% {transform: scale(1);}
+    40% {transform: scale(.75);}
+    60% {transform: scale(1);}
+    80% {transform: scale(.75);}
+    100% {transform: scale(.75);}
+}
+@-moz-keyframes heartBeat {
+    0% {transform: scale(.75);}
+    20% {transform: scale(1);}
+    40% {transform: scale(.75);}
+    60% {transform: scale(1);}
+    80% {transform: scale(.75);}
+    100% {transform: scale(.75);}
+}
+
+@-ms-keyframes heartBeat {
+    0% {transform: scale(.75);}
+    20% {transform: scale(1);}
+    40% {transform: scale(.75);}
+    60% {transform: scale(1);}
+    80% {transform: scale(.75);}
+    100% {transform: scale(.75);}
+}
+@-o-keyframes heartBeat {
+    0% {transform: scale(.75);}
+    20% {transform: scale(1);}
+    40% {transform: scale(.75);}
+    60% {transform: scale(1);}
+    80% {transform: scale(.75);}
+    100% {transform: scale(.75);}
+}
+@keyframes heartBeat {
+    0% {transform: scale(.75);}
+    20% {transform: scale(1);}
+    40% {transform: scale(.75);}
+    60% {transform: scale(1);}
+    80% {transform: scale(.75);}
+    100% {transform: scale(.75);}
+}
+
+
 header {
     margin: auto;
     padding: 0;
@@ -89,6 +165,18 @@ header h1 {
     animation: scaleEffect 10000ms 500ms infinite alternate ease-in-out forwards;
 }
 
+header h2 {
+    -webkit-transform: scale(0, 1.5);
+    -moz-transform: scale(0, 1.5);
+    -ms-transform: scale(0, 1.5);
+    -o-transform: scale(0, 1.5);
+    transform: scale(0, 1.5);
+    -webkit-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    -moz-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    -ms-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    -o-animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 10200ms 500ms infinite alternate ease-in-out forwards;
+}
 header p {
     -webkit-transform: scale(0, 1.5);
     -moz-transform: scale(0, 1.5);
