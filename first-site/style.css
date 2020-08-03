@@ -24,6 +24,11 @@ p {
     font-weight: 200;
 }
 
+.background-music-controls {
+    padding: 20px;
+    border-radius: 50px;
+}
+
 .picha {
     border: 2px solid burlywood;
     border-radius: 20px;
@@ -93,7 +98,7 @@ p {
     -moz-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
     -ms-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
     -o-animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
-    animation: scaleEffect 10600ms 500ms infinite alternate ease-in-out forwards;
+    animation: scaleEffect 106                                                                                                                                                                                                                                                                                                                   00ms 500ms infinite alternate ease-in-out forwards;
 }
 
 .fa-heartbeat {
